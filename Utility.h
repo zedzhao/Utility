@@ -7,4 +7,6 @@
 +(void)showIndicatorForView:(UIView *)view indicatorStyle:(UIActivityIndicatorViewStyle)style;
 +(void)hideIndicatorForView:(UIView *)view;
 
+
+- (void) showAutoHintTips:(NSString *)string;
 @end
